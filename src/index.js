@@ -1,18 +1,12 @@
+// Common JS
+//require('react');
+//module.exports = {}
+//export.varname = 24
+
+// es6
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
-const lecture = 'of react jsx';
-const element = <h1> This is testing {lecture}</h1>; // jsx ko syntax "<h1> This is testing {lecture}</h1>"
-
-// ReactDOM.render(what, where);
-ReactDOM.render(element, document.getElementById('jsx'));
-
-/*Component creation
-    -> Two types
-        |-> function based
-        |-> classed based
-*/
 
 // function based
 function Button(props){ // we made this as a function so that it can be reused //props to get the value dynamically
